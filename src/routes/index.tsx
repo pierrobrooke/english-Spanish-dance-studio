@@ -1,26 +1,40 @@
 import { createFileRoute } from "@tanstack/react-router";
+import { LanguageProvider } from "@/lib/i18n";
+import { Nav } from "@/components/site/Nav";
+import { Hero } from "@/components/site/Hero";
+import { Styles } from "@/components/site/Styles";
+import { Schedule } from "@/components/site/Schedule";
+import { Pricing } from "@/components/site/Pricing";
+import { About } from "@/components/site/About";
+import { Rental } from "@/components/site/Rental";
+import { FAQ, FAQSchema } from "@/components/site/FAQ";
+import { Visit } from "@/components/site/Visit";
+import { Footer } from "@/components/site/Footer";
+import { LocalBusinessSchema } from "@/components/site/LocalBusinessSchema";
 
 export const Route = createFileRoute("/")({
   component: Index,
 });
 
-// IMPORTANT: Replace this placeholder. For sites with multiple pages (About, Services, Contact, etc.),
-// create separate route files (about.tsx, services.tsx, contact.tsx) — don't put all pages in this file.
-function PlaceholderIndex() {
-  return (
-    <div
-      className="flex min-h-screen items-center justify-center"
-      style={{ backgroundColor: "#fcfbf8" }}
-    >
-      <img
-        data-lovable-blank-page-placeholder="REMOVE_THIS"
-        src="https://cdn.gpteng.co/blank-app-v1.svg"
-        alt="Your app will live here!"
-      />
-    </div>
-  );
-}
-
 function Index() {
-  return <PlaceholderIndex />;
+  return (
+    <LanguageProvider>
+      <LocalBusinessSchema />
+      <FAQSchema />
+      <div className="min-h-screen bg-parchment text-ink selection:bg-adobe/20">
+        <Nav />
+        <main>
+          <Hero />
+          <Styles />
+          <Schedule />
+          <Pricing />
+          <About />
+          <Rental />
+          <FAQ />
+          <Visit />
+        </main>
+        <Footer />
+      </div>
+    </LanguageProvider>
+  );
 }
