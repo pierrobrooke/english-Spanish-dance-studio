@@ -4,6 +4,17 @@
 
 @custom-variant dark (&:is(.dark *));
 
+@theme inline {
+  --color-adobe: var(--adobe);
+  --color-adobe-deep: var(--adobe-deep);
+  --color-sandstone: var(--sandstone);
+  --color-ink: var(--ink);
+  --color-gold: var(--gold);
+  --color-parchment: var(--parchment);
+  --font-display: "Fraunces", ui-serif, Georgia, serif;
+  --font-sans: "Outfit", ui-sans-serif, system-ui, sans-serif;
+}
+
 /*
  * Design system definition.
  *
@@ -63,6 +74,12 @@
 
 :root {
   --radius: 0.625rem;
+  --adobe: #c15b3e;
+  --adobe-deep: #9a4429;
+  --sandstone: #e8dccb;
+  --ink: #2b2621;
+  --gold: #d4a34d;
+  --parchment: #fdfbf7;
   --background: oklch(1 0 0);
   --foreground: oklch(0.129 0.042 264.695);
   --card: oklch(1 0 0);
@@ -138,7 +155,14 @@
   }
 
   body {
-    background-color: var(--color-background);
-    color: var(--color-foreground);
+    background-color: var(--parchment);
+    color: var(--ink);
+    font-family: var(--font-sans);
+    -webkit-font-smoothing: antialiased;
+  }
+
+  h1, h2, h3, h4 {
+    font-family: var(--font-display);
+    letter-spacing: -0.01em;
   }
 }
