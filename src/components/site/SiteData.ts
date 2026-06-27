@@ -11,11 +11,12 @@ export const STUDIO = {
   mapHref: "https://www.google.com/maps/dir/?api=1&destination=3534+Fredericksburg+Rd+%2324+San+Antonio+TX+78201",
   // Replace this with the actual Google Form embed URL when ready.
   rentalFormEmbedUrl: "",
-  // Square checkout/booking links — replace with real Square links when set.
+  // Square Appointments booking flow. All CTAs route to the same start page
+  // for now; split into per-service links once they exist in Square.
   square: {
-    bookClass: "https://squareup.com/",
-    bundle: "https://squareup.com/",
-    privateInquiry: "https://squareup.com/",
+    bookClass: "https://app.squareup.com/appointments/book/rwbsg1e9i7s0au/LTABMC72S9B6G/start",
+    bundle: "https://app.squareup.com/appointments/book/rwbsg1e9i7s0au/LTABMC72S9B6G/start",
+    privateInquiry: "https://app.squareup.com/appointments/book/rwbsg1e9i7s0au/LTABMC72S9B6G/start",
   },
   social: {
     instagram: "https://www.instagram.com/",
