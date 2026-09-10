@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { useLang } from "@/lib/i18n";
 import { STUDIO } from "./SiteData";
+import logoAsset from "@/assets/river-city-logo.png.asset.json";
 
 export function Nav() {
   const { lang, setLang, t } = useLang();
@@ -13,9 +14,11 @@ export function Nav() {
     <nav className="sticky top-0 z-50 bg-parchment/85 backdrop-blur-md border-b border-ink/5">
       <div className="max-w-7xl mx-auto px-5 md:px-8 h-16 flex items-center justify-between gap-4">
         <a href="#top" className="flex items-center gap-2">
-          <span className="font-display text-lg md:text-xl font-semibold tracking-tight text-adobe">
-            River City Dance Studio
-          </span>
+          <img
+            src={logoAsset.url}
+            alt="River City Dance Studio — Where San Antonio Comes to Dance"
+            className="h-12 md:h-14 w-auto"
+          />
         </a>
 
         <div className="hidden md:flex items-center gap-7">
