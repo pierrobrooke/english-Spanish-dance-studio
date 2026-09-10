@@ -5,9 +5,6 @@ import { Deco, ICONS } from "./Icons";
 export function Pricing() {
   const { t, lang } = useLang();
 
-  const tbd = lang === "es" ? "Precio por confirmar" : "Pricing coming soon";
-  const inquire = lang === "es" ? "Consultar" : "Inquire";
-
   return (
     <section id="pricing" className="py-20 md:py-24">
       <div className="max-w-7xl mx-auto px-5 md:px-8">
@@ -138,9 +135,16 @@ export function Pricing() {
                   </p>
                 </div>
                 <div className="flex flex-col items-start md:items-end gap-2">
-                  <p className="font-display text-2xl text-adobe">{tbd}</p>
-                  <a href={STUDIO.phoneHref} className="text-sm font-semibold text-adobe hover:text-adobe-deep">
-                    {inquire} → {STUDIO.phone}
+                  <p className="font-display text-2xl text-adobe">
+                    ${STUDIO.prices.privateCouple}
+                  </p>
+                  <a
+                    href={STUDIO.square.privateCouple}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="inline-flex items-center gap-2 bg-adobe text-parchment py-2.5 px-5 rounded-full text-sm font-semibold hover:bg-adobe-deep transition-colors"
+                  >
+                    {lang === "es" ? "Reservar Ahora" : "Book Now"}
                   </a>
                 </div>
               </div>

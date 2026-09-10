@@ -15,6 +15,7 @@ export const STUDIO = {
   square: {
     bookClass: "https://book.squareup.com/appointments/rwbsg1e9i7s0au/location/LTABMC72S9B6G/services/OFZYFSUIUSHAODC75MI6HXQ6",
     privateSingle: "https://book.squareup.com/appointments/rwbsg1e9i7s0au/location/LTABMC72S9B6G/services/X67TYCRAGEPLHUBHNH7R6LYC",
+    privateCouple: "https://book.squareup.com/appointments/rwbsg1e9i7s0au/location/LTABMC72S9B6G/services/GSSMLMPOWJCBRWNQTBPDWQLD",
     bundle: "https://book.squareup.com/appointments/rwbsg1e9i7s0au/location/LTABMC72S9B6G/services/GSSMLMPOWJCBRWNQTBPDWQLD",
     privateInquiry: "https://app.squareup.com/appointments/book/rwbsg1e9i7s0au/LTABMC72S9B6G/start",
   },
@@ -22,7 +23,7 @@ export const STUDIO = {
   prices: {
     publicClass: 25,
     privateSingle: 100,
-    privateCouple: null as number | null,
+    privateCouple: 150,
     rental: null as number | null,
   },
   social: {
