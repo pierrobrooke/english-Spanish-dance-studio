@@ -24,6 +24,7 @@ const entries: Entry[] = [
   { loc: "/#rental", priority: "0.7", changefreq: "monthly" },
   { loc: "/#faq", priority: "0.6", changefreq: "monthly" },
   { loc: "/#visit", priority: "0.6", changefreq: "monthly" },
+  { loc: "/#blog", priority: "0.7", changefreq: "monthly" },
 ];
 
 // Entity tokens are split so they survive file writes intact.
