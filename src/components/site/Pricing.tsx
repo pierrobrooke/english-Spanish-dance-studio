@@ -15,6 +15,7 @@ export function Pricing() {
           {/* Senior callout */}
           <aside className="lg:w-1/3">
             <div className="bg-adobe/5 p-8 rounded-2xl ring-1 ring-adobe/15 sticky top-24">
+              <Deco src={ICONS.couple} className="w-40 mb-4" />
               <span className="text-xs font-bold uppercase tracking-[0.2em] text-adobe mb-3 block">
                 {lang === "es" ? "Comunidad" : "Community"}
               </span>
