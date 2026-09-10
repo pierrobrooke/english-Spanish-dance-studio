@@ -58,14 +58,20 @@ export function Pricing() {
                 </p>
                 <div className="flex flex-wrap items-end gap-6">
                   <span className="font-display text-5xl md:text-6xl font-medium">$145</span>
-                  <a
-                    href={STUDIO.square.bundle}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="inline-flex items-center gap-2 bg-parchment text-adobe-deep py-3 px-6 rounded-full font-semibold hover:bg-sandstone transition-colors"
-                  >
-                    {lang === "es" ? "Reservar Ahora" : "Book Now"}
-                  </a>
+                  {STUDIO.square.bundle ? (
+                    <a
+                      href={STUDIO.square.bundle}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="inline-flex items-center gap-2 bg-parchment text-adobe-deep py-3 px-6 rounded-full font-semibold hover:bg-sandstone transition-colors"
+                    >
+                      {lang === "es" ? "Reservar Ahora" : "Book Now"}
+                    </a>
+                  ) : (
+                    <span className="inline-flex items-center gap-2 bg-parchment/30 text-parchment py-3 px-6 rounded-full font-semibold cursor-not-allowed">
+                      {lang === "es" ? "Próximamente" : "Coming Soon"}
+                    </span>
+                  )}
                 </div>
               </div>
 
