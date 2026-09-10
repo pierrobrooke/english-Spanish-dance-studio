@@ -1,6 +1,5 @@
 import { useLang } from "@/lib/i18n";
 import { STUDIO } from "./SiteData";
-import { Deco, ICONS } from "./Icons";
 import logoAsset from "@/assets/river-city-logo.png.asset.json";
 
 export function Footer() {
