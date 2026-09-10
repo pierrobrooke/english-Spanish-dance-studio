@@ -29,6 +29,6 @@ export const STUDIO = {
   },
   social: {
     instagram: "https://www.instagram.com/rivercitydancestudio/",
-    facebook: "https://www.facebook.com/",
+    facebook: "https://www.facebook.com/RiverCityDanceStudioSA/",
   },
 } as const;
