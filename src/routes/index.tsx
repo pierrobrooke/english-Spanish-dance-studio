@@ -8,6 +8,7 @@ import { Pricing } from "@/components/site/Pricing";
 import { About } from "@/components/site/About";
 import { Rental } from "@/components/site/Rental";
 import { FAQ, FAQSchema } from "@/components/site/FAQ";
+import { Blog, BlogSchema } from "@/components/site/Blog";
 import { Visit } from "@/components/site/Visit";
 import { Footer } from "@/components/site/Footer";
 import { LocalBusinessSchema } from "@/components/site/LocalBusinessSchema";
@@ -21,6 +22,7 @@ function Index() {
     <LanguageProvider>
       <LocalBusinessSchema />
       <FAQSchema />
+      <BlogSchema />
       <div className="min-h-screen bg-parchment text-ink selection:bg-adobe/20">
         <Nav />
         <main>
@@ -32,6 +34,7 @@ function Index() {
           <Rental />
           <FAQ />
           <Visit />
+          <Blog />
         </main>
         <Footer />
       </div>
