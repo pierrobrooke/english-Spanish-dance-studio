@@ -51,20 +51,12 @@ export function Schedule() {
                 <p className="text-lg font-medium">{r.title}</p>
                 <p className="text-sm text-parchment/50">{r.sub}</p>
               </div>
-              <div className="md:justify-self-end col-span-2 md:col-span-1 flex flex-col items-center md:items-end gap-2">
-                <a
-                  href={STUDIO.phoneHref}
-                  className="inline-flex justify-center text-xs font-semibold uppercase tracking-widest border border-parchment/20 px-5 py-3 rounded-full hover:bg-parchment hover:text-ink transition-colors"
-                >
-                  {t("schedule_reserve")}
-                </a>
-                <a
-                  href="#pricing"
-                  className="text-xs font-semibold uppercase tracking-widest text-gold hover:text-parchment transition-colors"
-                >
-                  {t("schedule_pricing_link")} ↓
-                </a>
-              </div>
+              <a
+                href="#pricing"
+                className="md:justify-self-end col-span-2 md:col-span-1 inline-flex justify-center text-xs font-semibold uppercase tracking-widest text-gold hover:text-parchment transition-colors"
+              >
+                {t("schedule_pricing_link")} ↓
+              </a>
             </div>
           ))}
         </div>

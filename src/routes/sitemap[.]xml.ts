@@ -1,16 +1,54 @@
 import { createFileRoute } from "@tanstack/react-router";
 import type {} from "@tanstack/react-start";
 
-const BASE_URL = "";
+// Public production origin. Used for absolute <loc> URLs.
+const BASE_URL = "https://san-antonio-dance-connect.lovable.app";
+
+type Entry = {
+  loc: string;
+  priority: string;
+  changefreq: "weekly" | "monthly" | "yearly";
+  /** Free-text image / video metadata is omitted to keep the XML valid & broadly compatible. */
+};
+
+// The site is a single-page app organized into semantic sections. The root
+// URL is the canonical page; the fragment entries exist to help search engines,
+// generative engines (GEO), and LLM crawlers discover the distinct content
+// blocks (schedule, pricing, rental, etc.).
+const entries: Entry[] = [
+  { loc: "/", priority: "1.0", changefreq: "weekly" },
+  { loc: "/#schedule", priority: "0.9", changefreq: "weekly" },
+  { loc: "/#pricing", priority: "0.9", changefreq: "weekly" },
+  { loc: "/#classes", priority: "0.8", changefreq: "monthly" },
+  { loc: "/#about", priority: "0.7", changefreq: "monthly" },
+  { loc: "/#rental", priority: "0.7", changefreq: "monthly" },
+  { loc: "/#faq", priority: "0.6", changefreq: "monthly" },
+  { loc: "/#visit", priority: "0.6", changefreq: "monthly" },
+];
+
+// Entity tokens are split so they survive file writes intact.
+const ENT_AMP = "&" + "amp;";
+const ENT_LT = "&" + "lt;";
+const ENT_GT = "&" + "gt;";
+const ENT_QUOT = "&" + "quot;";
+const ENT_APOS = "&" + "apos;";
+
+function escapeXml(value: string): string {
+  return value
+    .replace(/&/g, ENT_AMP)
+    .replace(/</g, ENT_LT)
+    .replace(/>/g, ENT_GT)
+    .replace(/"/g, ENT_QUOT)
+    .replace(/'/g, ENT_APOS);
+}
 
 export const Route = createFileRoute("/sitemap.xml")({
   server: {
     handlers: {
       GET: async () => {
-        const entries = [{ path: "/", changefreq: "weekly" as const, priority: "1.0" }];
         const urls = entries.map(
           (e) =>
-            `  <url>\n    <loc>${BASE_URL}${e.path}</loc>\n    <changefreq>${e.changefreq}</changefreq>\n    <priority>${e.priority}</priority>\n  </url>`,
+            `  <url>\n    <loc>${escapeXml(`${BASE_URL}${e.loc}`)}</loc>\n    <changefreq>${e.changefreq}</changefreq>\n    <priority>${e.priority}</priority>\n  </url>`,
         );
         const xml = [
           `<?xml version="1.0" encoding="UTF-8"?>`,
@@ -20,7 +58,7 @@ export const Route = createFileRoute("/sitemap.xml")({
         ].join("\n");
         return new Response(xml, {
           headers: {
-            "Content-Type": "application/xml",
+            "Content-Type": "application/xml; charset=utf-8",
             "Cache-Control": "public, max-age=3600",
           },
         });
