@@ -5,6 +5,7 @@ import latin from "@/assets/style-latin.jpg";
 import swing from "@/assets/style-swing.jpg";
 import occasions from "@/assets/style-occasions.jpg";
 import { useLang } from "@/lib/i18n";
+import { Deco, ICONS } from "./Icons";
 
 export function Styles() {
   const { t, lang } = useLang();
@@ -61,8 +62,12 @@ export function Styles() {
   ];
 
   return (
-    <section id="classes" className="py-20 md:py-24 bg-sandstone/15 border-y border-ink/5">
-      <div className="max-w-7xl mx-auto px-5 md:px-8">
+    <section id="classes" className="relative overflow-hidden py-20 md:py-24 bg-sandstone/15 border-y border-ink/5">
+      <Deco
+        src={ICONS.music}
+        className="absolute top-8 right-0 w-72 opacity-15 hidden md:block"
+      />
+      <div className="relative max-w-7xl mx-auto px-5 md:px-8">
         <div className="mb-12 md:mb-16 max-w-2xl">
           <span className="text-xs font-bold uppercase tracking-[0.2em] text-adobe mb-3 block">
             {t("styles_eyebrow")}

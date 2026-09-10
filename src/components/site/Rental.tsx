@@ -1,11 +1,16 @@
 import { useLang } from "@/lib/i18n";
 import { STUDIO } from "./SiteData";
+import { Deco, ICONS } from "./Icons";
 
 export function Rental() {
   const { t, lang } = useLang();
   return (
-    <section id="rental" className="py-20 md:py-24 bg-ink text-parchment">
-      <div className="max-w-7xl mx-auto px-5 md:px-8 grid lg:grid-cols-2 gap-10 lg:gap-16 items-start">
+    <section id="rental" className="relative overflow-hidden py-20 md:py-24 bg-ink text-parchment">
+      <Deco
+        src={ICONS.arch}
+        className="absolute -bottom-10 -left-16 w-[28rem] opacity-15 hidden lg:block"
+      />
+      <div className="relative max-w-7xl mx-auto px-5 md:px-8 grid lg:grid-cols-2 gap-10 lg:gap-16 items-start">
         <div>
           <span className="text-xs font-bold uppercase tracking-[0.2em] text-gold mb-3 block">
             {t("rental_eyebrow")}

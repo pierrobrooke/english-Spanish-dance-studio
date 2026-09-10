@@ -1,4 +1,5 @@
 import { useLang } from "@/lib/i18n";
+import { Deco, ICONS } from "./Icons";
 
 export function FAQ() {
   const { t, lang } = useLang();
@@ -79,8 +80,13 @@ export function FAQ() {
         ];
 
   return (
-    <section id="faq" className="py-20 md:py-24">
-      <div className="max-w-3xl mx-auto px-5 md:px-8">
+    <section id="faq" className="relative overflow-hidden py-20 md:py-24">
+      <Deco
+        src={ICONS.conjunto}
+        className="absolute -bottom-6 -left-10 w-80 opacity-10 hidden lg:block"
+      />
+      <div className="relative max-w-3xl mx-auto px-5 md:px-8">
+        <Deco src={ICONS.hat} className="w-24 mx-auto mb-4 opacity-80" />
         <span className="text-xs font-bold uppercase tracking-[0.2em] text-adobe mb-3 block text-center">
           FAQ
         </span>

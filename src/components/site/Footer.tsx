@@ -1,5 +1,6 @@
 import { useLang } from "@/lib/i18n";
 import { STUDIO } from "./SiteData";
+import { Deco, ICONS } from "./Icons";
 
 export function Footer() {
   const { t } = useLang();
@@ -9,6 +10,7 @@ export function Footer() {
       <div className="max-w-7xl mx-auto px-5 md:px-8">
         <div className="grid md:grid-cols-3 gap-10 mb-12">
           <div>
+            <Deco src={ICONS.banner} className="w-52 mb-4" />
             <p className="font-display text-2xl text-parchment mb-3">{STUDIO.name}</p>
             <p className="text-sm leading-relaxed text-pretty max-w-xs">{t("footer_tag")}</p>
           </div>

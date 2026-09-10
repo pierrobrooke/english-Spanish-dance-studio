@@ -1,11 +1,20 @@
 import heroImg from "@/assets/hero-dance.jpg";
 import { useLang } from "@/lib/i18n";
+import { Deco, ICONS } from "./Icons";
 
 export function Hero() {
   const { t, lang } = useLang();
   return (
     <header id="top" className="relative overflow-hidden">
-      <div className="max-w-7xl mx-auto px-5 md:px-8 pt-12 pb-16 md:pt-20 md:pb-24 grid lg:grid-cols-[1.1fr_1fr] gap-10 lg:gap-16 items-center">
+      <Deco
+        src={ICONS.sun}
+        className="absolute -top-10 -right-16 w-[26rem] opacity-15 hidden md:block"
+      />
+      <Deco
+        src={ICONS.boot}
+        className="absolute bottom-4 left-2 w-24 opacity-20 hidden lg:block -rotate-12"
+      />
+      <div className="relative max-w-7xl mx-auto px-5 md:px-8 pt-12 pb-16 md:pt-20 md:pb-24 grid lg:grid-cols-[1.1fr_1fr] gap-10 lg:gap-16 items-center">
         <div>
           <div className="inline-flex items-center gap-2 px-3 py-1 bg-sandstone/50 border border-ink/5 rounded-full text-xs font-semibold tracking-wider uppercase text-ink/70 mb-6">
             <span className="size-1.5 rounded-full bg-adobe" />
