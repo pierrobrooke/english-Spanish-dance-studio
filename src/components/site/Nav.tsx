@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { useLang } from "@/lib/i18n";
 import { STUDIO } from "./SiteData";
+import logoAsset from "@/assets/river-city-logo.png.asset.json";
 
 export function Nav() {
   const { lang, setLang, t } = useLang();
