@@ -28,7 +28,7 @@ export const STUDIO = {
     rental: null as number | null,
   },
   social: {
-    instagram: "https://www.instagram.com/",
+    instagram: "https://www.instagram.com/rivercitydancestudio/",
     facebook: "https://www.facebook.com/",
   },
 } as const;
