@@ -83,12 +83,16 @@ export function Pricing() {
                 <p className="text-sm text-ink/60">
                   {lang === "es" ? "Martes o viernes a las 7pm." : "Tuesdays or Fridays at 7pm."}
                 </p>
-                <p className="font-display text-2xl text-adobe pt-2">{tbd}</p>
+                <p className="font-display text-2xl text-adobe pt-2">
+                  ${STUDIO.prices.publicClass}
+                </p>
                 <a
-                  href={STUDIO.phoneHref}
-                  className="inline-flex text-sm font-semibold text-adobe hover:text-adobe-deep transition-colors"
+                  href={STUDIO.square.bookClass}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-flex items-center gap-2 bg-adobe text-parchment py-2.5 px-5 rounded-full text-sm font-semibold hover:bg-adobe-deep transition-colors"
                 >
-                  {t("call")} → {STUDIO.phone}
+                  {lang === "es" ? "Reservar Ahora" : "Book Now"}
                 </a>
               </div>
 
