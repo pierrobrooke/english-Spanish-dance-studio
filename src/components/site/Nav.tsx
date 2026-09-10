@@ -12,7 +12,7 @@ export function Nav() {
 
   return (
     <nav className="sticky top-0 z-50 bg-parchment/85 backdrop-blur-md border-b border-ink/5">
-      <div className="max-w-7xl mx-auto px-5 md:px-8 h-16 flex items-center justify-between gap-4">
+      <div className="max-w-7xl mx-auto px-5 md:px-8 h-40 md:h-48 flex items-center justify-between gap-4">
         <a href="#top" className="flex items-center gap-2">
           <img
             src={logoAsset.url}
