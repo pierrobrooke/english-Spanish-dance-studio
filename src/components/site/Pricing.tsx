@@ -1,5 +1,6 @@
 import { useLang } from "@/lib/i18n";
 import { STUDIO } from "./SiteData";
+import { Deco, ICONS } from "./Icons";
 
 export function Pricing() {
   const { t, lang } = useLang();

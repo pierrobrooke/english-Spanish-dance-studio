@@ -1,5 +1,6 @@
 import ownersImg from "@/assets/owners.jpg";
 import { useLang } from "@/lib/i18n";
+import { Deco, ICONS } from "./Icons";
 
 export function About() {
   const { t, lang } = useLang();

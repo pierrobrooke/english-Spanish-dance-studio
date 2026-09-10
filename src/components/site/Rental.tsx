@@ -1,5 +1,6 @@
 import { useLang } from "@/lib/i18n";
 import { STUDIO } from "./SiteData";
+import { Deco, ICONS } from "./Icons";
 
 export function Rental() {
   const { t, lang } = useLang();
