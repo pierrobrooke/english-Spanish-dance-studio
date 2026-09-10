@@ -16,7 +16,7 @@ export const STUDIO = {
     bookClass: "https://book.squareup.com/appointments/rwbsg1e9i7s0au/location/LTABMC72S9B6G/services/OFZYFSUIUSHAODC75MI6HXQ6",
     privateSingle: "https://book.squareup.com/appointments/rwbsg1e9i7s0au/location/LTABMC72S9B6G/services/X67TYCRAGEPLHUBHNH7R6LYC",
     privateCouple: "https://book.squareup.com/appointments/rwbsg1e9i7s0au/location/LTABMC72S9B6G/services/GSSMLMPOWJCBRWNQTBPDWQLD",
-    bundle: "https://book.squareup.com/appointments/rwbsg1e9i7s0au/location/LTABMC72S9B6G/services/GSSMLMPOWJCBRWNQTBPDWQLD",
+    bundle: "",
     privateInquiry: "https://app.squareup.com/appointments/book/rwbsg1e9i7s0au/LTABMC72S9B6G/start",
   },
   // Per-service price points (USD). TBD entries await final pricing.
