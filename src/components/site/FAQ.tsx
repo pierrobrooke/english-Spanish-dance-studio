@@ -25,7 +25,7 @@ export function FAQ() {
           },
           {
             q: "¿Qué incluye el paquete de $145?",
-            a: "Dos clases públicas de práctica más una lección privada. Es la forma más rápida de aprender los fundamentos.",
+            a: "Un paquete de 10 clases para principiantes (10 horas) diseñado para construir habilidades fundamentales. Se puede compartir con hasta 2 personas, no necesitas pareja y puedes cancelar hasta 24 horas antes para recibir tu crédito de vuelta. ¡Trae a un amigo GRATIS a cualquier clase que tomes!",
           },
           {
             q: "¿Cómo pago?",
@@ -59,7 +59,7 @@ export function FAQ() {
           },
           {
             q: "What's included in the $145 bundle?",
-            a: "Two drop-in public classes plus one private lesson — the fastest way to learn the fundamentals.",
+            a: "A 10-pack of beginner classes (10 hours) designed to build foundational dance skills. It can be shared with up to 2 individuals, no partner is needed, and you can cancel within 24 hours to receive your credit back. Plus, bring a friend for FREE to any single class you attend!",
           },
           {
             q: "How do I pay?",
@@ -127,7 +127,7 @@ export function FAQSchema() {
     ["When are public classes?", "Beginner public classes are every Tuesday and Friday at 7:00 PM."],
     ["Do you have classes for seniors?", "Yes. We specialize in patient, low-impact instruction for the senior community in a warm social environment."],
     ["Do I need to bring a partner?", "No. We rotate partners during public classes so everyone gets to dance."],
-    ["What is included in the $145 bundle?", "Two drop-in public classes plus one private lesson."],
+    ["What is included in the $145 bundle?", "A 10-pack of beginner classes (10 hours) that builds foundational dance skills. It can be shared with up to 2 people, no partner is needed, and you can cancel within 24 hours for a credit back. Bring a friend for free to any single class you attend."],
     ["How do you accept payment?", "We use Square for all card transactions — credit cards, Apple Pay, Google Pay. Cash is also accepted."],
     ["Do you offer instruction in Spanish?", "Yes. Our instructors are bilingual and can teach in English or Spanish."],
     ["Can I rent the studio?", "Yes. The studio is available for private events, rehearsals, quinceañera practices, and photography."],
