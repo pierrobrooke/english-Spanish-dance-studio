@@ -5,9 +5,6 @@ import { Deco, ICONS } from "./Icons";
 export function Pricing() {
   const { t, lang } = useLang();
 
-  const tbd = lang === "es" ? "Precio por confirmar" : "Pricing coming soon";
-  const inquire = lang === "es" ? "Consultar" : "Inquire";
-
   return (
     <section id="pricing" className="py-20 md:py-24">
       <div className="max-w-7xl mx-auto px-5 md:px-8">
