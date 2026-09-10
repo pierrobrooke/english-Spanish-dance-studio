@@ -109,9 +109,16 @@ export function Pricing() {
                     ? "Una hora de instrucción uno a uno a tu ritmo."
                     : "One hour of one-on-one instruction at your pace."}
                 </p>
-                <p className="font-display text-2xl text-adobe pt-2">{tbd}</p>
-                <a href={STUDIO.phoneHref} className="inline-flex text-sm font-semibold text-adobe hover:text-adobe-deep transition-colors">
-                  {inquire} → {STUDIO.phone}
+                <p className="font-display text-2xl text-adobe pt-2">
+                  ${STUDIO.prices.privateSingle}
+                </p>
+                <a
+                  href={STUDIO.square.privateSingle}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-flex items-center gap-2 bg-adobe text-parchment py-2.5 px-5 rounded-full text-sm font-semibold hover:bg-adobe-deep transition-colors"
+                >
+                  {lang === "es" ? "Reservar Ahora" : "Book Now"}
                 </a>
               </div>
 

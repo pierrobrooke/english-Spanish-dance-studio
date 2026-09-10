@@ -14,13 +14,14 @@ export const STUDIO = {
   // Square Appointments booking flow, one link per service.
   square: {
     bookClass: "https://book.squareup.com/appointments/rwbsg1e9i7s0au/location/LTABMC72S9B6G/services/OFZYFSUIUSHAODC75MI6HXQ6",
+    privateSingle: "https://book.squareup.com/appointments/rwbsg1e9i7s0au/location/LTABMC72S9B6G/services/X67TYCRAGEPLHUBHNH7R6LYC",
     bundle: "https://book.squareup.com/appointments/rwbsg1e9i7s0au/location/LTABMC72S9B6G/services/GSSMLMPOWJCBRWNQTBPDWQLD",
     privateInquiry: "https://app.squareup.com/appointments/book/rwbsg1e9i7s0au/LTABMC72S9B6G/start",
   },
   // Per-service price points (USD). TBD entries await final pricing.
   prices: {
     publicClass: 25,
-    privateSingle: null as number | null,
+    privateSingle: 100,
     privateCouple: null as number | null,
     rental: null as number | null,
   },
