@@ -1,4 +1,5 @@
-import ownersImg from "@/assets/owners.jpg";
+import ownersAsset from "@/assets/owners.png.asset.json";
+const ownersImg = ownersAsset.url;
 import { useLang } from "@/lib/i18n";
 import { Deco, ICONS } from "./Icons";
 
