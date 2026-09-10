@@ -21,8 +21,12 @@ export function Schedule() {
   ];
 
   return (
-    <section id="schedule" className="bg-ink text-parchment py-20 md:py-24">
-      <div className="max-w-7xl mx-auto px-5 md:px-8">
+    <section id="schedule" className="relative overflow-hidden bg-ink text-parchment py-20 md:py-24">
+      <Deco
+        src={ICONS.shoes}
+        className="absolute top-6 right-4 w-56 opacity-25 hidden md:block"
+      />
+      <div className="relative max-w-7xl mx-auto px-5 md:px-8">
         <div className="flex flex-col md:flex-row md:items-end md:justify-between gap-4 mb-10">
           <div>
             <span className="text-xs font-bold uppercase tracking-[0.2em] text-gold mb-3 block">

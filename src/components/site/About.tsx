@@ -5,8 +5,12 @@ import { Deco, ICONS } from "./Icons";
 export function About() {
   const { t, lang } = useLang();
   return (
-    <section id="about" className="py-20 md:py-24 bg-sandstone/15 border-y border-ink/5">
-      <div className="max-w-7xl mx-auto px-5 md:px-8 grid md:grid-cols-2 gap-10 md:gap-16 items-center">
+    <section id="about" className="relative overflow-hidden py-20 md:py-24 bg-sandstone/15 border-y border-ink/5">
+      <Deco
+        src={ICONS.boot}
+        className="absolute top-10 right-6 w-28 opacity-20 hidden lg:block rotate-6"
+      />
+      <div className="relative max-w-7xl mx-auto px-5 md:px-8 grid md:grid-cols-2 gap-10 md:gap-16 items-center">
         <div className="relative order-2 md:order-1">
           <div className="aspect-[5/6] rounded-2xl overflow-hidden ring-1 ring-ink/5 shadow-xl">
             <img
