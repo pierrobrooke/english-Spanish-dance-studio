@@ -1,6 +1,6 @@
 # River City Dance Studio
 
-> Ballroom and Latin partner-dance studio in San Antonio, Texas. Bilingual (English/Spanish) instruction, senior-friendly community, beginner public classes every Tuesday and Friday at 7:00 PM. In business for 45+ years.
+> Ballroom and Latin partner-dance studio in San Antonio, Texas. Bilingual (English/Spanish) instruction, senior-friendly community, beginner public classes every Tuesday and Friday at 7:00 PM. Family-owned and in business for 45+ years.
 
 River City Dance Studio is a family-owned dance school in central San Antonio, Texas. Current owners Chi & Cristine Diaz are longtime instructors who took over the studio to continue its 45-year legacy in the community. The studio specializes in social partner dancing rooted in South Texas culture: Tejano, Cumbia, Country Western Two-Step, Latin (Salsa & Bachata), Swing, and special-occasion choreography (weddings, quinceañeras, anniversaries).
 
@@ -8,8 +8,9 @@ River City Dance Studio is a family-owned dance school in central San Antonio, T
 
 - Address: 3534 Fredericksburg Rd #24, San Antonio, TX 78201
 - Phone: (210) 810-2224
+- Email: rivercitydancestudio.sat@gmail.com
 - Languages: English and Spanish (bilingual instruction)
-- Payments: All card transactions processed via Square (credit cards, Apple Pay, Google Pay). Cash accepted at the door.
+- Payments: All card transactions processed securely via Square (major credit cards, Apple Pay, Google Pay, contactless). Cash accepted at the door.
 
 ## Class schedule
 
@@ -19,11 +20,19 @@ River City Dance Studio is a family-owned dance school in central San Antonio, T
 
 ## Pricing
 
-- $145 Starter Bundle — two drop-in public classes plus one private lesson (best value)
-- Public drop-in class — price posted at the studio (call to confirm)
-- Private lesson, single person — contact for pricing
-- Private lesson, couple — contact for pricing
+- $145 Starter Bundle — 10-pack of beginner classes (10 hrs), shareable with up to 2 people, no partner needed, 24-hour cancellation credit, bring a friend free to any class. Best value.
+- Public drop-in class — $25
+- Private lesson, single person — $100
+- Private lesson, couple — $150
 - Studio rental — submit the rental form for availability and rates
+
+## Booking
+
+All class and private-lesson bookings go through Square Appointments:
+- Public class: https://book.squareup.com/appointments/rwbsg1e9i7s0au/location/LTABMC72S9B6G/services/OFZYFSUIUSHAODC75MI6HXQ6
+- Private lesson (single): https://book.squareup.com/appointments/rwbsg1e9i7s0au/location/LTABMC72S9B6G/services/X67TYCRAGEPLHUBHNH7R6LYC
+- Private lesson (couple): https://book.squareup.com/appointments/rwbsg1e9i7s0au/location/LTABMC72S9B6G/services/GSSMLMPOWJCBRWNQTBPDWQLD
+- $145 Starter Bundle: https://book.squareup.com/appointments/rwbsg1e9i7s0au/location/LTABMC72S9B6G/services/AIMU6QQM2D56ZSG7OPSAKKFR
 
 ## Services
 

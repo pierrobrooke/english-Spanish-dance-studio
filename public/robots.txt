@@ -1,4 +1,26 @@
 User-agent: *
 Allow: /
 
-Sitemap: /sitemap.xml
+# Allow common LLM / AI crawlers to index the site for GEO discovery.
+User-agent: GPTBot
+Allow: /
+
+User-agent: OAI-SearchBot
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: anthropic-ai
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+User-agent: Bytespider
+Allow: /
+
+Sitemap: https://san-antonio-dance-connect.lovable.app/sitemap.xml
