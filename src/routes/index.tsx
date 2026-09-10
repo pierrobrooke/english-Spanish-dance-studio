@@ -22,6 +22,7 @@ function Index() {
     <LanguageProvider>
       <LocalBusinessSchema />
       <FAQSchema />
+      <BlogSchema />
       <div className="min-h-screen bg-parchment text-ink selection:bg-adobe/20">
         <Nav />
         <main>
@@ -33,6 +34,7 @@ function Index() {
           <Rental />
           <FAQ />
           <Visit />
+          <Blog />
         </main>
         <Footer />
       </div>
