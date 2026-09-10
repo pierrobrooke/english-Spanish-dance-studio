@@ -5,6 +5,7 @@ import latin from "@/assets/style-latin.jpg";
 import swing from "@/assets/style-swing.jpg";
 import occasions from "@/assets/style-occasions.jpg";
 import { useLang } from "@/lib/i18n";
+import { Deco, ICONS } from "./Icons";
 
 export function Styles() {
   const { t, lang } = useLang();
