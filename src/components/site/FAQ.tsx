@@ -59,7 +59,7 @@ export function FAQ() {
           },
           {
             q: "What's included in the $145 bundle?",
-            a: "Two drop-in public classes plus one private lesson — the fastest way to learn the fundamentals.",
+            a: "A 10-pack of beginner classes (10 hours) designed to build foundational dance skills. It can be shared with up to 2 individuals, no partner is needed, and you can cancel within 24 hours to receive your credit back. Plus, bring a friend for FREE to any single class you attend!",
           },
           {
             q: "How do I pay?",
