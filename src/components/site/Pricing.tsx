@@ -65,7 +65,7 @@ export function Pricing() {
                     rel="noopener noreferrer"
                     className="inline-flex items-center gap-2 bg-parchment text-adobe-deep py-3 px-6 rounded-full font-semibold hover:bg-sandstone transition-colors"
                   >
-                    {lang === "es" ? "Comprar con Square" : "Purchase via Square"}
+                    {lang === "es" ? "Reservar Ahora" : "Book Now"}
                   </a>
                 </div>
               </div>
