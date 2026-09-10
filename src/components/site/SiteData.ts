@@ -9,8 +9,9 @@ export const STUDIO = {
   region: "TX",
   postal: "78201",
   mapHref: "https://www.google.com/maps/dir/?api=1&destination=3534+Fredericksburg+Rd+%2324+San+Antonio+TX+78201",
-  // Replace this with the actual Google Form embed URL when ready.
-  rentalFormEmbedUrl: "",
+  // Google Form embed for studio rental requests.
+  rentalFormEmbedUrl:
+    "https://docs.google.com/forms/d/e/1FAIpQLSc8d6a-t3da8qOcTs_3FZCNBqrx-ADFhXrYT7SzdTmbZIQoVQ/viewform?embedded=true",
   // Square Appointments booking flow, one link per service.
   square: {
     bookClass: "https://book.squareup.com/appointments/rwbsg1e9i7s0au/location/LTABMC72S9B6G/services/OFZYFSUIUSHAODC75MI6HXQ6",

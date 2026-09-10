@@ -47,7 +47,7 @@ export function Rental() {
             <iframe
               src={STUDIO.rentalFormEmbedUrl}
               title={t("rental_form_placeholder")}
-              className="w-full h-[720px] rounded-xl bg-parchment"
+              className="w-full h-[1206px] rounded-xl bg-parchment"
               loading="lazy"
             />
           ) : (
