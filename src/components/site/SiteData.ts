@@ -15,7 +15,7 @@ export const STUDIO = {
   // for now; split into per-service links once they exist in Square.
   square: {
     bookClass: "https://app.squareup.com/appointments/book/rwbsg1e9i7s0au/LTABMC72S9B6G/start",
-    bundle: "https://app.squareup.com/appointments/book/rwbsg1e9i7s0au/LTABMC72S9B6G/start",
+    bundle: "https://book.squareup.com/appointments/rwbsg1e9i7s0au/location/LTABMC72S9B6G/services/GSSMLMPOWJCBRWNQTBPDWQLD",
     privateInquiry: "https://app.squareup.com/appointments/book/rwbsg1e9i7s0au/LTABMC72S9B6G/start",
   },
   social: {
