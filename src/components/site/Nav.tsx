@@ -8,7 +8,7 @@ export function Nav() {
   const [open, setOpen] = useState(false);
 
   const link =
-    "text-base md:text-sm font-medium text-ink/70 hover:text-adobe transition-colors";
+    "text-base font-medium text-ink/70 hover:text-adobe transition-colors";
 
   return (
     <nav className="sticky top-0 z-50 bg-parchment/85 backdrop-blur-md border-b border-ink/5">
@@ -56,7 +56,7 @@ export function Nav() {
           </div>
           <a
             href={STUDIO.phoneHref}
-            className="hidden sm:inline-flex items-center bg-adobe text-parchment px-4 py-2 rounded-full text-sm font-medium ring-1 ring-adobe hover:bg-adobe-deep transition-colors"
+            className="hidden sm:inline-flex items-center bg-adobe text-parchment px-4 py-2 rounded-full text-base font-medium ring-1 ring-adobe hover:bg-adobe-deep transition-colors"
           >
             {t("nav_book")}
           </a>
