@@ -25,7 +25,7 @@ export function FAQ() {
           },
           {
             q: "¿Qué incluye el paquete de $145?",
-            a: "Dos clases públicas de práctica más una lección privada. Es la forma más rápida de aprender los fundamentos.",
+            a: "Un paquete de 10 clases para principiantes (10 horas) diseñado para construir habilidades fundamentales. Se puede compartir con hasta 2 personas, no necesitas pareja y puedes cancelar hasta 24 horas antes para recibir tu crédito de vuelta. ¡Trae a un amigo GRATIS a cualquier clase que tomes!",
           },
           {
             q: "¿Cómo pago?",
