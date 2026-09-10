@@ -17,7 +17,7 @@ export function Nav() {
           <img
             src={logoAsset.url}
             alt="River City Dance Studio — Where San Antonio Comes to Dance"
-            className="h-12 md:h-14 w-auto"
+            className="h-36 md:h-44 w-auto"
           />
         </a>
 
