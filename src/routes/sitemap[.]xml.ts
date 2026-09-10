@@ -26,13 +26,20 @@ const entries: Entry[] = [
   { loc: "/#visit", priority: "0.6", changefreq: "monthly" },
 ];
 
+// Entity tokens are split so they survive file writes intact.
+const ENT_AMP = "&" + "amp;";
+const ENT_LT = "&" + "lt;";
+const ENT_GT = "&" + "gt;";
+const ENT_QUOT = "&" + "quot;";
+const ENT_APOS = "&" + "apos;";
+
 function escapeXml(value: string): string {
   return value
-    .replace(/&/g, "&")
-    .replace(/</g, "<")
-    .replace(/>/g, ">")
-    .replace(/"/g, """)
-    .replace(/'/g, "'");
+    .replace(/&/g, ENT_AMP)
+    .replace(/</g, ENT_LT)
+    .replace(/>/g, ENT_GT)
+    .replace(/"/g, ENT_QUOT)
+    .replace(/'/g, ENT_APOS);
 }
 
 export const Route = createFileRoute("/sitemap.xml")({
