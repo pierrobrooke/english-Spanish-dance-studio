@@ -40,24 +40,56 @@ export function Pricing() {
             <p className="text-ink/60 mb-10 max-w-[55ch]">{t("pricing_sub")}</p>
 
             <div className="grid grid-cols-1 md:grid-cols-2 gap-5">
-              {/* Featured: $145 bundle */}
+              {/* Featured: $145 bundle — 10-class starter pack */}
               <div className="md:col-span-2 p-8 rounded-2xl bg-gradient-to-br from-adobe to-adobe-deep text-parchment relative overflow-hidden ring-1 ring-adobe-deep">
                 <div className="absolute top-5 right-5 bg-gold text-ink text-[10px] font-black px-3 py-1 rounded-full uppercase tracking-widest">
                   {lang === "es" ? "Mejor Valor" : "Best Value"}
                 </div>
                 <span className="text-xs font-semibold tracking-widest uppercase opacity-80">
-                  {lang === "es" ? "Paquete especial" : "Bundle"}
+                  {lang === "es" ? "Paquete especial" : "Starter Bundle"}
                 </span>
                 <h3 className="font-display text-3xl md:text-4xl font-medium mt-2 mb-2">
                   {lang === "es" ? "El Paquete de $145" : "The $145 Starter Bundle"}
                 </h3>
-                <p className="opacity-90 text-pretty mb-6 max-w-md">
+                <p className="opacity-90 text-pretty mb-5 max-w-xl">
                   {lang === "es"
-                    ? "Incluye 2 clases públicas + 1 lección privada. La forma ideal de comenzar."
-                    : "Two drop-in public classes plus one private lesson. The perfect way to begin."}
+                    ? "Un paquete de 10 clases para principiantes diseñado para construir habilidades fundamentales con un plan de estudios completo impartido por instructores expertos. Perfecto para individuos o parejas que buscan un aprendizaje flexible y económico adaptado a su horario."
+                    : "A 10-pack of beginner classes designed to build foundational skills with a comprehensive curriculum led by expert instructors. Perfect for individuals or couples seeking flexible, affordable learning tailored to their schedule."}
                 </p>
+                <ul className="space-y-2 mb-6 max-w-xl">
+                  {(lang === "es"
+                    ? [
+                        "Se puede compartir con hasta 2 personas.",
+                        "No se necesita pareja.",
+                        "¿No puedes asistir? Cancela dentro de 24 horas para recibir tu crédito de vuelta.",
+                        "Trae a un amigo GRATIS a cualquier clase que asistas.",
+                      ]
+                    : [
+                        "Can be shared with up to 2 individuals.",
+                        "No partner needed.",
+                        "Can't make class? Cancel within 24 hours to receive your credit back to your account.",
+                        "Bring a friend for FREE for any single class you attend.",
+                      ]
+                  ).map((item) => (
+                    <li key={item} className="flex items-start gap-2 text-sm opacity-90">
+                      <svg className="size-4 mt-0.5 shrink-0" fill="currentColor" viewBox="0 0 20 20">
+                        <path
+                          fillRule="evenodd"
+                          d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.857-9.809a.75.75 0 00-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 10-1.06 1.061l2.5 2.5a.75.75 0 001.137-.089l4-5.5z"
+                          clipRule="evenodd"
+                        />
+                      </svg>
+                      <span>{item}</span>
+                    </li>
+                  ))}
+                </ul>
                 <div className="flex flex-wrap items-end gap-6">
-                  <span className="font-display text-5xl md:text-6xl font-medium">$145</span>
+                  <div>
+                    <span className="font-display text-5xl md:text-6xl font-medium">$145</span>
+                    <span className="block text-xs font-semibold tracking-widest uppercase opacity-70 mt-1">
+                      {lang === "es" ? "10 clases · 10 hrs" : "10-class pack · 10 hrs"}
+                    </span>
+                  </div>
                   {STUDIO.square.bundle ? (
                     <a
                       href={STUDIO.square.bundle}

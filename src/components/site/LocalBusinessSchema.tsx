@@ -25,7 +25,9 @@ export function LocalBusinessSchema() {
     makesOffer: [
       {
         "@type": "Offer",
-        name: "Starter Bundle — 2 public classes + 1 private lesson",
+        name: "Starter Bundle — 10-pack of beginner classes",
+        description:
+          "10 beginner classes building foundational dance skills. Can be shared with up to 2 individuals. No partner needed. Cancel within 24 hours for credit back. Bring a friend for free to any single class.",
         price: "145.00",
         priceCurrency: "USD",
       },
