@@ -65,6 +65,7 @@ const es: Dict = {
   nav_rental: "Renta del Estudio",
   nav_about: "Nosotros",
   nav_visit: "Visítanos",
+  nav_blog: "Guías",
   nav_book: "Reservar Clase",
   hero_title_a: "Donde San Antonio viene a bailar.",
   hero_title_b: "Where San Antonio comes to dance.",
