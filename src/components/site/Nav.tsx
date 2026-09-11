@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { assetUrl } from "@/lib/asset-url";
 import { useLang } from "@/lib/i18n";
 import { STUDIO } from "./SiteData";
 import logoAsset from "@/assets/river-city-logo.png.asset.json";
@@ -15,7 +16,7 @@ export function Nav() {
       <div className="max-w-7xl mx-auto px-5 md:px-8 h-40 md:h-48 flex items-center justify-between gap-4">
         <a href="#top" className="flex items-center gap-2">
           <img
-            src={logoAsset.url}
+            src={assetUrl(logoAsset.url)}
             alt="River City Dance Studio — Where San Antonio Comes to Dance"
             className="h-36 md:h-44 w-auto"
           />

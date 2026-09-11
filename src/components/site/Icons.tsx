@@ -7,17 +7,18 @@ import arch from "@/assets/icon-6.webp.asset.json";
 import hat from "@/assets/icon-7.webp.asset.json";
 import shoes from "@/assets/icon-8.webp.asset.json";
 import conjunto from "@/assets/icon-9.webp.asset.json";
+import { assetUrl } from "@/lib/asset-url";
 
 export const ICONS = {
-  sun: sun.url,
-  boot: boot.url,
-  couple: couple.url,
-  banner: banner.url,
-  music: music.url,
-  arch: arch.url,
-  hat: hat.url,
-  shoes: shoes.url,
-  conjunto: conjunto.url,
+  sun: assetUrl(sun.url),
+  boot: assetUrl(boot.url),
+  couple: assetUrl(couple.url),
+  banner: assetUrl(banner.url),
+  music: assetUrl(music.url),
+  arch: assetUrl(arch.url),
+  hat: assetUrl(hat.url),
+  shoes: assetUrl(shoes.url),
+  conjunto: assetUrl(conjunto.url),
 };
 
 /** Decorative-only illustration. Hidden from assistive tech. */
