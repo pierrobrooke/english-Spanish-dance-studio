@@ -9,13 +9,15 @@ export function Footer() {
   return (
     <footer className="bg-ink text-parchment/70 pt-16 pb-10">
       <div className="max-w-7xl mx-auto px-5 md:px-8">
-        <div className="grid md:grid-cols-3 gap-10 mb-12">
+        <div className="grid md:grid-cols-[auto_1fr_1fr_auto] gap-10 mb-12 items-start">
           <div>
-            <img src={assetUrl(logoAsset.url)} alt={`${STUDIO.name} logo`} className="w-52 mb-4" loading="lazy" decoding="async" />
+            <img src={assetUrl(logoAsset.url)} alt={`${STUDIO.name} logo`} className="w-52" loading="lazy" decoding="async" />
+          </div>
+          <div className="md:pt-2">
             <p className="font-display text-2xl text-parchment mb-3">{STUDIO.name}</p>
             <p className="text-sm leading-relaxed text-pretty max-w-xs">{t("footer_tag")}</p>
           </div>
-          <div className="text-sm space-y-2">
+          <div className="text-sm space-y-2 md:pt-2">
             <p>{STUDIO.address}</p>
             <p>
               {STUDIO.city}, {STUDIO.region} {STUDIO.postal}
@@ -27,7 +29,7 @@ export function Footer() {
               <a href={STUDIO.emailHref} className="hover:text-parchment">{STUDIO.email}</a>
             </p>
           </div>
-          <div className="flex md:justify-end items-start gap-4">
+          <div className="flex md:justify-end items-start gap-4 md:pt-2">
             <a href={STUDIO.social.instagram} target="_blank" rel="noopener noreferrer" className="size-10 rounded-full border border-parchment/15 inline-flex items-center justify-center hover:bg-parchment/5">
               <span className="text-xs font-semibold">IG</span>
             </a>
