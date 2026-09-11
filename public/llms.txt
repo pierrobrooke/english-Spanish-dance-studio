@@ -45,6 +45,13 @@ All class and private-lesson bookings go through Square Appointments:
 ## Pages
 
 - [Home](/): full overview including schedule, pricing, classes, owners, studio rental, FAQ, and visit info
+- [Guides for new dancers](/#blog): three in-depth articles for people new to dancing in San Antonio
+
+## Guides (articles published on the home page)
+
+- Never Danced Before? A Beginner's Guide to Dance Classes in San Antonio — what a first beginner class is like at River City Dance Studio: arrival, parking, sprung hardwood floor, partner rotation (no partner needed), what to wear, patient pacing, and how to book. Available in English and Spanish.
+- Dance for Seniors in San Antonio: Health, Friendship, and Fun After 50 — why partner dancing suits adults over 50: low-impact aerobic activity, balance and fall prevention, memory benefits, and social connection; how the studio accommodates senior dancers. Available in English and Spanish.
+- Tejano, Cumbia & Country Western: San Antonio's Dance Styles Explained — the origins and character of Tejano, Cumbia, and Country Western (Texas two-step, polka, waltz) plus Latin ballroom and Swing, and where to learn each locally. Available in English and Spanish.
 
 ## Optional
 
