@@ -36,6 +36,11 @@ export function Rental() {
               {lang === "es" ? "Llamar al estudio" : "Call the studio"} · {STUDIO.phone}
             </a>
           </div>
+          <Deco
+            src={ICONS.arch}
+            className="mt-6 w-56 md:w-64 opacity-20 hidden lg:block"
+            aria-hidden="true"
+          />
         </div>
 
         <div className="bg-parchment/5 rounded-2xl p-2 ring-1 ring-parchment/10">
