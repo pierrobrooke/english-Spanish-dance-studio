@@ -23,4 +23,4 @@ Allow: /
 User-agent: Bytespider
 Allow: /
 
-Sitemap: https://san-antonio-dance-connect.lovable.app/sitemap.xml
+Sitemap: https://sanantoniodancestudio.com/sitemap.xml
