@@ -1,7 +1,9 @@
 import ownersAsset from "@/assets/owners.png.asset.json";
-const ownersImg = ownersAsset.url;
 import { useLang } from "@/lib/i18n";
+import { assetUrl } from "@/lib/asset-url";
 import { Deco, ICONS } from "./Icons";
+
+const ownersImg = assetUrl(ownersAsset.url);
 
 export function About() {
   const { t, lang } = useLang();
