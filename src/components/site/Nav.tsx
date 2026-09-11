@@ -26,6 +26,7 @@ export function Nav() {
           <a href="#pricing" className={link}>{t("nav_pricing")}</a>
           <a href="#rental" className={link}>{t("nav_rental")}</a>
           <a href="#about" className={link}>{t("nav_about")}</a>
+          <a href="#blog" className={link}>{t("nav_blog")}</a>
           <a href="#visit" className={link}>{t("nav_visit")}</a>
         </div>
 
@@ -84,6 +85,7 @@ export function Nav() {
             <a href="#pricing" onClick={() => setOpen(false)}>{t("nav_pricing")}</a>
             <a href="#rental" onClick={() => setOpen(false)}>{t("nav_rental")}</a>
             <a href="#about" onClick={() => setOpen(false)}>{t("nav_about")}</a>
+            <a href="#blog" onClick={() => setOpen(false)}>{t("nav_blog")}</a>
             <a href="#visit" onClick={() => setOpen(false)}>{t("nav_visit")}</a>
             <a
               href={STUDIO.phoneHref}
