@@ -2,7 +2,7 @@ import { createFileRoute } from "@tanstack/react-router";
 import type {} from "@tanstack/react-start";
 
 // Public production origin. Used for absolute <loc> URLs.
-const BASE_URL = "https://san-antonio-dance-connect.lovable.app";
+const BASE_URL = "https://sanantoniodancestudio.com";
 
 type Entry = {
   loc: string;

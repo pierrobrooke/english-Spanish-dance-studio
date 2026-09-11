@@ -8,7 +8,7 @@ export function Rental() {
     <section id="rental" className="relative overflow-hidden py-20 md:py-24 bg-ink text-parchment">
       <Deco
         src={ICONS.arch}
-        className="absolute -bottom-10 -left-16 w-[28rem] opacity-15 hidden lg:block"
+        className="absolute -bottom-10 left-1/2 -translate-x-1/2 w-[28rem] opacity-15 hidden lg:block"
       />
       <div className="relative max-w-7xl mx-auto px-5 md:px-8 grid lg:grid-cols-2 gap-10 lg:gap-16 items-start">
         <div>

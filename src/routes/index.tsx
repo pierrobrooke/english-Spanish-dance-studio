@@ -13,7 +13,7 @@ import { Visit } from "@/components/site/Visit";
 import { Footer } from "@/components/site/Footer";
 import { LocalBusinessSchema } from "@/components/site/LocalBusinessSchema";
 
-const SITE = "https://san-antonio-dance-connect.lovable.app";
+const SITE = "https://sanantoniodancestudio.com";
 
 export const Route = createFileRoute("/")({
   component: Index,

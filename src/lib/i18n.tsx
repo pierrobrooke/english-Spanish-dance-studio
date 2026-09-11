@@ -35,7 +35,7 @@ const en: Dict = {
   about_body: "River City Dance Studio has been part of San Antonio for over 45 years. Chi and Cristine — longtime instructors here — became co-owners to carry that legacy forward. Their joy is in the connections they make with every student who walks through the door.",
   rental_eyebrow: "Studio Rental",
   rental_title: "Host your event with us",
-  rental_body: "Our hardwood-floor studio is available for private events, rehearsals, quinceañera practices, and photography. Centrally located on Fredericksburg Rd. Submit a request below and we'll get back to you with availability and rates.",
+  rental_body: "Our hardwood-floor studio is available for private events, rehearsals, quinceañera practices, and photography. Centrally located on Fredericksburg Rd. Submit a request and we'll get back to you with availability and rates.",
   rental_feature_1: "Sprung hardwood dance floor",
   rental_feature_2: "Full sound system with Bluetooth",
   rental_feature_3: "Easy parking on-site",
