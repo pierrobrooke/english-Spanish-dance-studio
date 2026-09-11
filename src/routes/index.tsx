@@ -13,8 +13,30 @@ import { Visit } from "@/components/site/Visit";
 import { Footer } from "@/components/site/Footer";
 import { LocalBusinessSchema } from "@/components/site/LocalBusinessSchema";
 
+const SITE = "https://san-antonio-dance-connect.lovable.app";
+
 export const Route = createFileRoute("/")({
   component: Index,
+  head: () => ({
+    meta: [
+      { title: "Dance Classes in San Antonio, TX | River City Dance Studio" },
+      {
+        name: "description",
+        content:
+          "Beginner dance classes every Tuesday & Friday at 7pm in San Antonio. Tejano, Cumbia, Country Western, Latin & Swing. Bilingual, senior-friendly, no partner needed.",
+      },
+      { property: "og:title", content: "Dance Classes in San Antonio, TX | River City Dance Studio" },
+      {
+        property: "og:description",
+        content:
+          "Beginner classes Tue & Fri at 7pm. Private lessons, a $145 10-class bundle, and studio rental. Bilingual instruction on Fredericksburg Rd.",
+      },
+      { property: "og:type", content: "website" },
+      { property: "og:url", content: SITE + "/" },
+      { name: "twitter:card", content: "summary_large_image" },
+    ],
+    links: [{ rel: "canonical", href: SITE + "/" }],
+  }),
 });
 
 function Index() {
