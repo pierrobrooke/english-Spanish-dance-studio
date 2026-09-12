@@ -1,6 +1,6 @@
 # River City Dance Studio
 
-> Ballroom and Latin partner-dance studio in San Antonio, Texas. Bilingual (English/Spanish) instruction, senior-friendly community, beginner public classes every Tuesday and Friday at 7:00 PM. Family-owned and in business for 45+ years.
+> Ballroom and Latin partner-dance studio in San Antonio, Texas. Bilingual (English/Spanish) instruction, senior-friendly community, beginner public classes every Friday at 7:00 PM. Family-owned and in business for 45+ years.
 
 River City Dance Studio is a family-owned dance school in central San Antonio, Texas. Current owners Chi & Cristine Diaz are longtime instructors who took over the studio to continue its 45-year legacy in the community. The studio specializes in social partner dancing rooted in South Texas culture: Tejano, Cumbia, Country Western Two-Step, Latin (Salsa & Bachata), Swing, and special-occasion choreography (weddings, quinceañeras, anniversaries).
 
@@ -14,7 +14,6 @@ River City Dance Studio is a family-owned dance school in central San Antonio, T
 
 ## Class schedule
 
-- Tuesday, 7:00 PM — Beginner public class (no partner required, all levels)
 - Friday, 7:00 PM — Beginner public class (no partner required, all levels)
 - Private lessons by appointment (single or couple)
 
