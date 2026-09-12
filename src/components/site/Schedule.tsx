@@ -7,12 +7,6 @@ export function Schedule() {
 
   const rows = [
     {
-      day: lang === "es" ? "MAR / TUE" : "TUE / MAR",
-      time: "7:00 PM",
-      title: lang === "es" ? "Clase pública para principiantes" : "Beginner Public Class",
-      sub: lang === "es" ? "Sin pareja necesaria · Todos los niveles" : "No partner required · All levels",
-    },
-    {
       day: lang === "es" ? "VIE / FRI" : "FRI / VIE",
       time: "7:00 PM",
       title: lang === "es" ? "Clase pública para principiantes" : "Beginner Public Class",
