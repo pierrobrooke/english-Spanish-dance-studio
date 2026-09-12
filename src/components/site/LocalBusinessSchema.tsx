@@ -4,7 +4,7 @@ export function LocalBusinessSchema() {
     "@type": "DanceSchool",
     name: "River City Dance Studio",
     description:
-      "San Antonio's beloved ballroom and Latin partner-dance studio since 1979. Beginner public classes Tuesdays and Fridays at 7:00 PM. Private lessons, bilingual instruction (English/Spanish), senior-friendly community, and studio rentals.",
+      "San Antonio's beloved ballroom and Latin partner-dance studio since 1979. Beginner public classes Fridays at 7:00 PM. Private lessons, bilingual instruction (English/Spanish), senior-friendly community, and studio rentals.",
     url: "/",
     telephone: "+1-210-810-2224",
     address: {
@@ -19,7 +19,6 @@ export function LocalBusinessSchema() {
     knowsLanguage: ["en", "es"],
     paymentAccepted: "Cash, Credit Card, Apple Pay, Google Pay (Square)",
     openingHoursSpecification: [
-      { "@type": "OpeningHoursSpecification", dayOfWeek: "Tuesday", opens: "19:00", closes: "21:00" },
       { "@type": "OpeningHoursSpecification", dayOfWeek: "Friday", opens: "19:00", closes: "21:00" },
     ],
     makesOffer: [

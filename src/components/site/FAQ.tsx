@@ -13,7 +13,7 @@ export function FAQ() {
           },
           {
             q: "¿Cuándo son las clases públicas?",
-            a: "Cada martes y viernes a las 7:00 PM. Son clases para principiantes — sin pareja necesaria y todos los niveles bienvenidos.",
+            a: "Cada viernes a las 7:00 PM. Son clases para principiantes — sin pareja necesaria y todos los niveles bienvenidos.",
           },
           {
             q: "¿Tienen clases para adultos mayores?",
@@ -47,7 +47,7 @@ export function FAQ() {
           },
           {
             q: "When are public classes?",
-            a: "Every Tuesday and Friday at 7:00 PM. These are beginner public classes — no partner needed and all ages welcome.",
+            a: "Every Friday at 7:00 PM. These are beginner public classes — no partner needed and all ages welcome.",
           },
           {
             q: "Do you have classes for seniors?",
@@ -124,7 +124,7 @@ export function FAQSchema() {
   // English source for structured data (search-engine + LLM friendly).
   const faqs = [
     ["Where is River City Dance Studio located?", "3534 Fredericksburg Rd #24, San Antonio, TX 78201."],
-    ["When are public classes?", "Beginner public classes are every Tuesday and Friday at 7:00 PM."],
+    ["When are public classes?", "Beginner public classes are every Friday at 7:00 PM."],
     ["Do you have classes for seniors?", "Yes. We specialize in patient, low-impact instruction for the senior community in a warm social environment."],
     ["Do I need to bring a partner?", "No. We rotate partners during public classes so everyone gets to dance."],
     ["What is included in the $145 bundle?", "A 10-pack of beginner classes (10 hours) that builds foundational dance skills. It can be shared with up to 2 people, no partner is needed, and you can cancel within 24 hours for a credit back. Bring a friend for free to any single class you attend."],

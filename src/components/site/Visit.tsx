@@ -39,10 +39,6 @@ export function Visit() {
             <h3 className="sr-only">{t("visit_hours")}</h3>
             <dl className="text-ink/70 space-y-2 text-base">
               <div className="flex justify-between border-b border-ink/10 py-2">
-                <dt>{lang === "es" ? "Martes" : "Tuesday"}</dt>
-                <dd>7:00 PM</dd>
-              </div>
-              <div className="flex justify-between border-b border-ink/10 py-2">
                 <dt>{lang === "es" ? "Viernes" : "Friday"}</dt>
                 <dd>7:00 PM</dd>
               </div>

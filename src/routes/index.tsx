@@ -23,13 +23,13 @@ export const Route = createFileRoute("/")({
       {
         name: "description",
         content:
-          "Beginner dance classes every Tuesday & Friday at 7pm in San Antonio. Tejano, Cumbia, Country Western, Latin & Swing. Bilingual, senior-friendly, no partner needed.",
+          "Beginner dance classes every Friday at 7pm in San Antonio. Tejano, Cumbia, Country Western, Latin & Swing. Bilingual, senior-friendly, no partner needed.",
       },
       { property: "og:title", content: "Dance Classes in San Antonio, TX | River City Dance Studio" },
       {
         property: "og:description",
         content:
-          "Beginner classes Tue & Fri at 7pm. Private lessons, a $145 10-class bundle, and studio rental. Bilingual instruction on Fredericksburg Rd.",
+          "Beginner classes Fri at 7pm. Private lessons, a $145 10-class bundle, and studio rental. Bilingual instruction on Fredericksburg Rd.",
       },
       { property: "og:type", content: "website" },
       { property: "og:url", content: SITE + "/" },
