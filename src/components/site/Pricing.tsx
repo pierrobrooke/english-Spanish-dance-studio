@@ -116,7 +116,7 @@ export function Pricing() {
                   {lang === "es" ? "Clase pública" : "Public Class"}
                 </h3>
                 <p className="text-sm text-ink/60">
-                  {lang === "es" ? "Martes o viernes a las 7pm." : "Tuesdays or Fridays at 7pm."}
+                  {lang === "es" ? "Viernes a las 7pm." : "Fridays at 7pm."}
                 </p>
                 <p className="font-display text-2xl text-adobe pt-2">
                   ${STUDIO.prices.publicClass}
